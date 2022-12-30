@@ -1,0 +1,24 @@
+package dp01;
+
+public class CalcApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 변수
+		int a = 10;	// a를 재활용하기 위해 변수 선언
+		int b = 20;
+		// 10과 20의 합은 얼마입니까?
+		System.out.println(a+b);
+		System.out.println(10+20);
+		
+		{	// scope
+			int c = 20;
+		}
+		// System.out.println(c);	// 주석
+		
+		for(int i = 0; i < 10 ; i++) {
+			System.out.println("Hello World!!");
+		}
+	}
+
+}

@@ -1,0 +1,6 @@
+package inter01;
+//@FunctionalInterface
+public interface AddInterface {
+//	void add(int a, int b, int c);	// 내가 짠 코드
+	void add(int a, int b, int c);
+}

@@ -1,0 +1,5 @@
+package dp01;
+
+public interface CalcOperator {
+
+}

@@ -1,0 +1,16 @@
+// 선생님
+
+package inter01;
+
+public class AddApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AddClass add = new AddClass();
+		add.add(1, 2, 3);
+		
+		AddInterface add2 = (a, b, c) -> System.out.println(a + b + c);
+		add2.add(1, 2, 3);
+	}
+
+}

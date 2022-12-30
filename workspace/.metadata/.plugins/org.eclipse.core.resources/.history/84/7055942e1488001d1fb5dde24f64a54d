@@ -1,0 +1,10 @@
+package inter01;
+
+public class TestApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AddInterface ai = (int a, int b, int c) -> {System.out.println(a+b+c); };
+	}
+
+}

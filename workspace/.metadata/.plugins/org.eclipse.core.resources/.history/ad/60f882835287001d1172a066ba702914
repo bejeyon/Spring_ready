@@ -1,0 +1,27 @@
+package trans01;
+
+public class Subway {
+	private int subway_no;
+	private int passenger;
+	private int income;
+	
+	public Subway(int _subway_no) {
+		this.subway_no = _subway_no;
+	}
+	
+	public void getIn(TransCard card) {
+		card.withdraw(1000);
+		this.passenger++;
+		this.income += 1000;
+	}
+	
+	public void getOut() {
+		this.passenger--;
+	}
+
+	@Override
+	public String toString() {
+		return "Subway [subway_no=" + subway_no + ", passenger=" + passenger + ", income=" + income + "]";
+	}
+
+}

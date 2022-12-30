@@ -1,0 +1,19 @@
+package inter01;
+
+import dp01.CalcOperator;
+
+public class AddClass implements CalcOperator {
+
+	@Override
+	public int operator(int a, int b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double operator(double a, double b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,10 @@
+package trans01;
+
+public class TransApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
