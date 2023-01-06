@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			h1 {
+				color:green; font-size:50px; font-family:"궁서체";
+			}
+			
+			.class01 {
+				font-size: 60px;
+			}
+			
+			#id01 {
+				color:navy;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>HTML Basic</h1>
+		<h1 class="class01">HTML Basic</h1>
+		<h1 id="id01">HTML Basic</h1>
+		<h1>HTML Basic</h1>
+		<h1>HTML Basic</h1>
+		<font size="7" color="blue" face="궁서체">HTML Basic</font><br>
+		<button type="button" onclick="changeContent()">제목 변경</button>
+		<div></div>,<span></span>,<p></p>,<li></li>,<ol></ol>,<ul></ul>
+		
+		<script type="text/javascript">
+		function changeContent() {
+			document.getElementById("id01").innerText = "HTML 기본";
+		}
+		</script>
+	</body>
+</html>

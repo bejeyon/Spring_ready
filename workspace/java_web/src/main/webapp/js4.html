@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<script>
+			// javascript로 객체를 생성하는 방법 2가지.
+		
+			var calc = {	// 클래스 아님. 객체. 자바스크립트로 객체를 만드는 방법. 객체를 만드는 이유 : 메서드 쓰기 위해서.
+					a: 1,
+					b: 2,
+					add: function() {
+						return this.a + this.b;
+					}
+			}
+			console.log(calc.add());
+			
+			var calc2 = {};	// 전부다 다르다
+			calc2.a = 1;
+			calc2.b = 2;
+			calc2.add = function() {
+				return this.a + this.b;
+			}
+			console.log(calc.add());
+			
+			function calc3(a, b) {	// 얘는 다르고
+				this.a = a;
+				this.b = b;
+			}
+			
+			calc3.prototype.add = function() {	// 얘는 공통이다.
+				return this.a + this.b;
+			}
+			
+			var o_calc = new calc3(1, 2);
+			console.log(o_calc.add());
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<script>
+			var calc = {
+					a: 1,
+					b: 2,
+					add: function() {
+						return this.a + this.b;
+					}
+			};
+			console.log(calc.add());
+		
+			var calc2 = {};
+			calc2.a = 1;
+			calc2.b = 2;
+			calc2.add = function() {
+				return this.a + this.b;
+			}
+			console.log(calc2.add());
+			
+			
+			// 생성자 함수
+			function calc3(a, b) {
+				this.a = a;
+				this.b = b;
+			}
+			
+			calc3.prototype.add = function() {
+				return this.a + this.b;
+			}
+			
+			var o_calc = new calc3(1, 2);
+			console.log(o_calc.add());
+			
+		</script>
+	</body>
+</html>

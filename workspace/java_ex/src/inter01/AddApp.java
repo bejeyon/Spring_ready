@@ -13,7 +13,7 @@ public class AddApp {
 		AddInterface add2 = (a, b, c) -> System.out.println(a + b + c);
 		add2.add(1, 2, 3);	// 안의 값 1, 2, 3을 통해 위의 a, b, c의 타입을 컴파일러가 자동으로 유추.
 		
-		var a = 10;
+//		var a = 10;
 	}
 
 }

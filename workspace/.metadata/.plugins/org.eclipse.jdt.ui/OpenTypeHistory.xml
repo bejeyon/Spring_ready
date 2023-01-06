@@ -2,5 +2,10 @@
 <typeInfoHistroy>
     <typeInfo handle="=java_ex/src&lt;trans01{Bus.java[Bus" modifiers="1" timestamp="1672300767986"/>
     <typeInfo handle="=java_ex/src&lt;dp01{CalcOperator.java[CalcOperator" modifiers="513" timestamp="1672304614214"/>
-    <typeInfo handle="=java_ex/src&lt;inter01{AddInterface.java[AddInterface" modifiers="513" timestamp="1672385528979"/>
+    <typeInfo handle="=java_ex/src&lt;inter01{AddInterface.java[AddInterface" modifiers="513" timestamp="1672390623078"/>
+    <typeInfo handle="=java_ex/src&lt;inter02{Person.java[Person" modifiers="513" timestamp="1672622299766"/>
+    <typeInfo handle="=java_ex/src&lt;dp02{LoggerInterface.java[LoggerInterface" modifiers="513" timestamp="1672628400591"/>
+    <typeInfo handle="=java_ex/src&lt;teamproject02{People.java[People" modifiers="513" timestamp="1672643039524"/>
+    <typeInfo handle="=java_ex/src&lt;teamproject02{Passenger.java[Passenger" modifiers="1" timestamp="1672643039515"/>
+    <typeInfo handle="=java_ex/src&lt;teamproject02{DiscountRate.java[DiscountRate" modifiers="513" timestamp="1672642292804"/>
 </typeInfoHistroy>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<script>
+// 			alert('Test');
+// 			alert(alert);
+// 			var alert = 'red alert';
+// 			alert(alert);
+
+			var a = 'String';
+			console.log(typeof(a));
+			var a = 27;
+			console.log(typeof(a));
+			
+			console.log(typeof(true));
+			console.log(typeof(function() {}));
+			console.log(typeof({}));
+			console.log(typeof(aa));
+			
+			console.log(1 + '2');
+			console.log('1' + 2);
+			console.log('1' / 2);
+			
+			var array = [100, 200, 300, 400, 500];
+			console.log(typeof(array));
+			
+			for(var i = 0; i < array.length; i++) {
+				console.log(array[i]);
+			}
+			
+			array.forEach(function(item) {
+				console.log(item);
+			});
+			
+			console.log(typeof([100, 200, 300, 400, 500]));
+			
+			[100, 200, 300, 400, 500].forEach(function(item) {
+				console.log(item);
+			});	// 객체 지향형을 쓰는 이유. lotation 자체를 객체로 인지 -> forEach문을 바로 쓰는 게 가능. 중요! *나중에 이해할 것*
+			
+			var log = function(item) {	// 함수도 data type이기 때문에 대입이 가능
+				console.log(item);
+			}
+			
+			var doc = function(item) {	// 함수도 data type이기 때문에 대입이 가능
+				document.write(item);
+			}
+			
+			array.forEach(log);
+			array.forEach(doc);
+			
+			array.forEach((item) => console.log(item));
+			
+			// array.forEach((item) => console.log(2*item));
+			array.map((n) => n*2).forEach((item) => console.log(item));	// 기능 위주, 메서드 위주, 함수 위주로 해야 함. -> 메서드 chaining
+			
+			console.log('273' == 273);	// true
+			console.log('273' === 273);	// false
+		</script>
+	</body>
+</html>

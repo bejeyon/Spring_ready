@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<script>
+			// alert('Test');
+			// alert(alert);
+			// var alert = 'red alert';
+			// alert(alert);
+			
+			var a = 'String';
+			console.log(typeof(a));
+			var a = 27;
+			console.log(typeof(a));
+			
+			console.log(typeof(true));
+			console.log(typeof(function() { }));
+			console.log(typeof({ }));
+			console.log(typeof(aa));
+			
+			console.log(1 + '2');
+			console.log('1' + 2);
+			console.log('1' / 2);
+			
+			var array = [100, 200, 300, 400, 500];
+			console.log(typeof(array));
+			
+			for(var i=0; i < array.length; i++) {
+				console.log(array[i]);
+			}
+			
+			array.forEach(function(item) {
+				console.log(item);
+			});
+			
+			console.log(typeof([100, 200, 300, 400, 500]));
+			
+			[100, 200, 300, 400, 500].forEach(function(item) {
+				console.log(item);
+			});
+			
+			var log = function(item) {
+				console.log(item);
+			}
+			
+			var doc = function(item) {
+				document.write(item);
+			}
+			
+			array.forEach(log);
+			array.forEach(doc);
+			
+			array.forEach((item) => console.log(item));
+			array.map((n) => n*2).forEach((item) => console.log(item));
+			
+			console.log('273' == 273);
+			console.log('273' === 273);
+			
+			
+			
+			
+		</script>
+	</body>
+</html>
